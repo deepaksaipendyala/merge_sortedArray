@@ -38,7 +38,7 @@ void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
 
 int main() {
   vector<int> arr1[] = {1,2,3};
-  int arr2[] = {2,5,6};
+  vector<int> arr2[] = {2,5,6};
   cout << "Before merge:" << endl;
   for (int i = 0; i < 3; i++) {
     cout << arr1[i] << " ";
